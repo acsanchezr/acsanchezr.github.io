@@ -52,9 +52,9 @@ a:hover{
 /********************************************************/
 #firstBox{
   float:left;
-  width: 250px;
+  width: 15%;
   background: #FFF;
-  padding: 10px; /*for text*/
+  padding: 1%; /*for text*/
   text-align: center;
   color: white;
   font-family: 'Titillium Web', sans-serif;
@@ -87,7 +87,7 @@ a:hover{
 }
 #firstBox p{
   opacity: 0.75;
-  text-align: justify;
+  /* text-align: justify; */
   color: #000;
   font-size: 13px;
 }
@@ -101,22 +101,25 @@ a:hover{
 
 /********************************************************/
 #secondBox{
+  margin-top:auto;
   float:left;
-  width: 700;
+  width: 50%;
   height: 570px;
-  margin-left: 15px;
+  margin-left: 5%;
   font-size:15px;
+  opacity: 0.8;
 }
-
+/*
 .subbox{
   height:40%;
-}
+} */
 
 #secondBox h2.titles{
   font-size: 24px;
+  font-weight: bold;
   padding-bottom: 10px;
   border-bottom: solid;
-  border-width: 3px;
+  border-width: 2px;
   border-color: #ffc300;
 }
 
@@ -125,7 +128,6 @@ a:hover{
   opacity:0.75;
   font-size: 12px;
 }
-
 
 
 #thirdBox {
