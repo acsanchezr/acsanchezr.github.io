@@ -1,31 +1,27 @@
 :root{
-  --link_color: #2134B2;
+  --link_color: #0D22AF;
 }
 
-body{
-   background: white;
+body {
+   background: pink;
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     line-height: 175%;
     margin: 2% 2% 2% 2%;
     width: auto;
-    /* overflow:hidden; */
 }
-a{
+a {
   color: var(--link_color);
-  opacity:100%;
 }
-a:hover{
-  /* background-color:  #ffc300;  yellow color*/
+a:hover {
   color: tomato;
 }
 
 /********************************************************/
-
 .navbar{
   font-family: 'Titillium Web', sans-serif;
   color: #000000;
-  opacity: 0.75;
+  opacity: 1;
   list-style: none;   /*gets rid of bullet points*/
   text-align: right;  /*aligns to the right*/
   font-size: 16px;
@@ -41,7 +37,7 @@ a:hover{
 }
 .navbar > li.rn > span{
   background-color: black;
-  opacity: 0.75;
+  opacity: 1;
   padding-right: 5px;
   padding-left: 5px;
   color:white;
@@ -57,24 +53,27 @@ a:hover{
 
 /********************************************************/
 #firstBox{
-  background: #FFF;
-  padding: 1%; /*for text*/
+  font-size: 16px;
   text-align: center;
-  color: white;
   font-family: 'Titillium Web', sans-serif;
-
 }
+
+#firstBox > p > a{
+  font-weight: bold;
+  color: var(--link_color);
+}
+
 #firstBox > img.aboutBox-img{
-  opacity:0.90;
+  opacity:1;
   border-radius: 50%;
   margin-top: 6px;
   width: 80%;
 }
 #firstBox > img.aboutBox-img:hover{
-  opacity: 0.90;
+  opacity: 1;
 }
 #firstBox h1 {
-  opacity: 0.75;
+  opacity: 1;
   margin-bottom: 1%;
   font-size: 30px;
   letter-spacing: 3px;
@@ -82,31 +81,25 @@ a:hover{
   color:#000;
 }
 #firstBox h5{
-  opacity: 0.75;
+  opacity: 1;
   margin-top: 2%;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 3px;
   font-weight: 100;
   color: #000;
-}
-#firstBox p{
-  opacity: 0.75;
-  color: #000;
-  font-size: 16px;
+  line-height: 175%;
 }
 
 /********************************************************/
-#secondBox{
+#secondBox {
   margin-top:auto;
   height: 570px;
   margin-left: 5%;
   font-size:16px;
   font-family: 'Titillium Web', sans-serif;
-
-  opacity: 0.8;
 }
 
-#secondBox h2.titles{
+#secondBox h2.titles {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 10px;
@@ -115,29 +108,13 @@ a:hover{
   border-color: tomato;
 }
 
-#secondBox p.authors{
+#secondBox p.authors {
   margin-top: -10px;
-  opacity:0.75;
+  opacity:1;
   font-size: 12px;
 }
 
-
-#thirdBox {
-  margin-left:25px;
-  float:left;
-  width:280px;
-  height:550px;
-}
-#thirdBox img{
-  margin-left:25px;
-  float:left;
-  width:280px;
-  height:550px;
-}
-
-.content_holder{
-  margin:auto;
-  width:1300px;
-  height:570px;
-  background-color: none;
+#secondBox a{
+  font-weight: bold;
+  color: var(--link_color);
 }
