@@ -1,28 +1,34 @@
+:root{
+  --link_color: #2134B2;
+}
+
 body{
    background: white;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     line-height: 175%;
     margin: 2% 2% 2% 2%;
     width: auto;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 a{
-  color: tomato;
+  color: var(--link_color);
   opacity:100%;
 }
 a:hover{
-  color:  #ffc300;
+  /* background-color:  #ffc300;  yellow color*/
+  color: tomato;
 }
 
 /********************************************************/
 
 .navbar{
+  font-family: 'Titillium Web', sans-serif;
   color: #000000;
+  opacity: 0.75;
   list-style: none;   /*gets rid of bullet points*/
-  align-self: inherit;
   text-align: right;  /*aligns to the right*/
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .navbar > li{
@@ -31,11 +37,11 @@ a:hover{
 }
 .navbar > li.rn{
   text-align:left;
-  position:relative;
-  margin-top:-2%;
+  margin-top:2%;
 }
 .navbar > li.rn > span{
   background-color: black;
+  opacity: 0.75;
   padding-right: 5px;
   padding-left: 5px;
   color:white;
@@ -51,20 +57,18 @@ a:hover{
 
 /********************************************************/
 #firstBox{
-  float:left;
-  width: 15%;
   background: #FFF;
   padding: 1%; /*for text*/
   text-align: center;
   color: white;
   font-family: 'Titillium Web', sans-serif;
+
 }
 #firstBox > img.aboutBox-img{
-  opacity:0.75;
+  opacity:0.90;
   border-radius: 50%;
   margin-top: 6px;
-  width: 50%;
-  height: auto;
+  width: 80%;
 }
 #firstBox > img.aboutBox-img:hover{
   opacity: 0.90;
@@ -72,7 +76,7 @@ a:hover{
 #firstBox h1 {
   opacity: 0.75;
   margin-bottom: 1%;
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 3px;
   font-weight: 100;
   color:#000;
@@ -80,39 +84,27 @@ a:hover{
 #firstBox h5{
   opacity: 0.75;
   margin-top: 2%;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 3px;
   font-weight: 100;
   color: #000;
 }
 #firstBox p{
   opacity: 0.75;
-  /* text-align: justify; */
   color: #000;
-  font-size: 13px;
+  font-size: 16px;
 }
-.ill_div{
-  width:250px;
-  height:120px;
-  background-color:  #ffc300;
-  float:left;
-}
-
 
 /********************************************************/
 #secondBox{
   margin-top:auto;
-  float:left;
-  width: 50%;
   height: 570px;
   margin-left: 5%;
-  font-size:15px;
+  font-size:16px;
+  font-family: 'Titillium Web', sans-serif;
+
   opacity: 0.8;
 }
-/*
-.subbox{
-  height:40%;
-} */
 
 #secondBox h2.titles{
   font-size: 24px;
@@ -120,7 +112,7 @@ a:hover{
   padding-bottom: 10px;
   border-bottom: solid;
   border-width: 2px;
-  border-color: #ffc300;
+  border-color: tomato;
 }
 
 #secondBox p.authors{
