@@ -5,7 +5,7 @@
 body {
     /* background-color: #faf3f4 !important; */
     font-size: 16px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     line-height: 175%;
     margin: 2% 2% 2% 2%;
     width: auto;
@@ -19,12 +19,12 @@ a:hover {
 
 /********************************************************/
 .navbar{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   color: #000000;
   opacity: 1;
   list-style: none;   /*gets rid of bullet points*/
   text-align: right;  /*aligns to the right*/
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .navbar > li{
@@ -32,7 +32,7 @@ a:hover {
   padding-right: 10px;
 }
 .navbar > li.rn{
-  text-align:left;
+  /* text-align:left; */
   margin-top:2%;
 }
 .navbar > li.rn > span{
@@ -41,7 +41,7 @@ a:hover {
   padding-right: 5px;
   padding-left: 5px;
   color:white;
-  font-size: 24px;
+  font-size: 20px;
 }
 .navbar > li > a{
   text-decoration: none;
@@ -55,15 +55,15 @@ a:hover {
 #firstBox{
   font-size: 16px;
   text-align: center;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
-#firstBox > p > a{
+/* #firstBox > p > a{
   font-weight: bold;
   color: var(--link_color);
-}
+} */
 
-#firstBox > img.aboutBox-img{
+/* #firstBox > img.aboutBox-img{
   opacity:1;
   border-radius: 50%;
   margin-top: 6px;
@@ -71,19 +71,21 @@ a:hover {
 }
 #firstBox > img.aboutBox-img:hover{
   opacity: 1;
-}
+} */
+
 #firstBox h1 {
-  opacity: 1;
+  font-family: 'Shrikhand', cursive;
+  /* opacity: 1; */
   margin-bottom: 1%;
   font-size: 30px;
   letter-spacing: 3px;
   font-weight: 100;
-  color:#000;
+  color:tomato;
 }
 #firstBox h5{
   opacity: 1;
   margin-top: 2%;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 3px;
   font-weight: 100;
   color: #000;
@@ -95,23 +97,23 @@ a:hover {
   margin-top:auto;
   height: 570px;
   margin-left: 5%;
-  font-size:18px;
-  font-family: 'Titillium Web', sans-serif;
+  font-size:16px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 #secondBox h2.titles {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 10px;
-  border-bottom: solid;
-  border-width: 2px;
-  border-color: tomato;
+  /* border-bottom: solid;
+  /* border-width: 2px;
+  border-color: tomato; */ */
 }
 
 #secondBox p.authors {
   margin-top: -10px;
   opacity:1;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #secondBox a{
