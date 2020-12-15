@@ -3,7 +3,8 @@
 }
 
 body {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    font-family: 'Source Code Pro', monospace;
     margin: 2% 2% 2% 2%;
     width: auto;
     color:#000000;
@@ -18,7 +19,8 @@ a:hover {
 /********************************************************/
 .navbar{
   margin-top:2%;
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	/* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+  font-family: 'Source Code Pro', monospace;
   list-style: none;   /*gets rid of bullet points*/
   text-align: right;  /*aligns to the right*/
   font-size: 16px;
