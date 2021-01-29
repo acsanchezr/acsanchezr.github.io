@@ -3,7 +3,9 @@
 }
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Lora', serif;
+    font-size: 16px;
     margin: 2% 2% 2% 2%;
     width: auto;
     color:#000000;
@@ -43,31 +45,18 @@ a:hover {
 }
 
 /********************************************************/
-#firstBox{
-  font-size: 16px;
-  text-align: center;
+
+img {
+  width: 230px;
+  padding: 0 2% 2% 2%;
 }
 
-#firstBox h1 {
-  font-family: 'Shrikhand', cursive;
-  margin-bottom: 1%;
-  font-size: 40px;
-  color:tomato;
-}
-
-#firstBox h5{
-  font-family: 'Source Code Pro', monospace;
-  font-size: 16px;
-  padding-top: 10px;
-  line-height: inherit;
-}
-
-/********************************************************/
 #secondBox {
-  font-family: 'Source Code Pro', monospace;
-  margin-top: 8%;
+  /* font-family: 'Source Code Pro', monospace; */
+  font-family: 'Lora', serif;
+  margin: 5%;
   height: auto;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   font-size:17px;
 }
 
