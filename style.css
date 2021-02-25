@@ -1,9 +1,9 @@
 :root{
   --link_color: #0D22AF;
+
 }
 
 body {
-    /* font-family: 'Source Code Pro', monospace; */
     font-family: 'Lora', serif;
     font-size: 16px;
     margin: 2% 2% 2% 2%;
