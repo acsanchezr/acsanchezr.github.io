@@ -1,20 +1,27 @@
 :root{
+  /* background: green; */
   --link_color: #0D22AF;
-  /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif; /*not working rn*/
 }
 
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  color: tomato;
+}
 body {
-    font-size: 16px;
-    margin: 2% 2% 2% 2%;
-    width: auto;
-    color:#000000;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 16px;
+  margin: 2% 2% 2% 2%;
+  width: auto;
+  color:#000000;
 }
 a {
   color: var(--link_color);
 }
 a:hover {
-  color: tomato;
+  /* color: tomato; */
+  font-weight: bold;
 }
 
 /********************************************************/
@@ -30,27 +37,27 @@ a:hover {
 }
 .navbar #rn{
   font-weight: bold;
-  color: tomato !important;
+  /* color: tomato !important;
   border-bottom: solid, medium;
-  border-bottom-style: solid;
+  border-bottom-style: solid; */
 }
  .navbar > li > a{
   text-decoration: none;
-  color: inherit;
+  color: #000;
 }
 .navbar > li > a:hover{
   color: tomato;
+  text-decoration-line: underline;
 }
 
 /********************************************************/
-img {
+/* img {
   padding: 2%;
 }
 
 #secondBox {
   margin: 5%;
   height: auto;
-  /* margin-left: 5%; */
   font-size:17px;
 }
 
@@ -65,12 +72,12 @@ img {
   margin-top: -10px;
   opacity:1;
   font-size: 14px;
-}
+} */
 
-#secondBox a{
+/* #secondBox a{
   font-weight: bold;
   color: var(--link_color);
-}
+} */
 
 #contactinfo {
   display: flex;
