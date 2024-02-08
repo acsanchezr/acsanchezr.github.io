@@ -1,16 +1,18 @@
 :root{
-  /* background: green; */
-  --link_color: #0D22AF;
-  font-family: 'Open Sans', sans-serif; /*not working rn*/
+  --link_color: rgb(58, 58, 185);
 }
 
-
-h1, h2, h3, h4, h5, h6{
+h1{
+  font-weight: bold;
+  color: tomato;
+}
+h2, h3, h4, h5, h6{
+  background-color: rgb(255, 227, 222);
   font-weight: bold;
   color: tomato;
 }
 body {
-  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin: 2% 2% 2% 2%;
   width: auto;
@@ -20,7 +22,7 @@ a {
   color: var(--link_color);
 }
 a:hover {
-  /* color: tomato; */
+  color:var(--link_color);
   font-weight: bold;
 }
 
@@ -37,24 +39,21 @@ a:hover {
 }
 .navbar #rn{
   font-weight: bold;
-  /* color: tomato !important;
-  border-bottom: solid, medium;
-  border-bottom-style: solid; */
 }
  .navbar > li > a{
   text-decoration: none;
   color: #000;
 }
 .navbar > li > a:hover{
-  color: tomato;
-  text-decoration-line: underline;
+font-weight: bold;  
+text-decoration-line: underline;
 }
 
 /********************************************************/
-/* img {
-  padding: 2%;
+img {
+  margin: 2%;
 }
-
+/*
 #secondBox {
   margin: 5%;
   height: auto;
@@ -67,12 +66,16 @@ a:hover {
   font-weight: bold;
   padding-bottom: 10px;
 }
+*/
+p.title {
+  font-weight:bold;
+}
 
-#secondBox p.authors {
+p.authors {
   margin-top: -10px;
   opacity:1;
   font-size: 14px;
-} */
+}
 
 /* #secondBox a{
   font-weight: bold;
