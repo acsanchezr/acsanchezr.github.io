@@ -1,22 +1,24 @@
 :root{
+  /* background:green !important; */
   --link_color: rgb(58, 58, 185);
 }
 
-h1{
-  font-weight: bold;
-  color: tomato;
-}
-h2, h3, h4, h5, h6{
-  background-color: rgb(255, 227, 222);
-  font-weight: bold;
-  color: tomato;
-}
 body {
+  background-color: rgb(255, 237, 237);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin: 2% 2% 2% 2%;
   width: auto;
   color:#000000;
+}
+h1{
+  font-weight: bold;
+  color: tomato;
+}
+h2, h3, h4, h5, h6{
+  background-color: rgb(255, 205, 205);
+  font-weight: bold;
+  color: 575757;
 }
 a {
   color: var(--link_color);
@@ -51,7 +53,7 @@ text-decoration-line: underline;
 
 /********************************************************/
 img {
-  margin: 2%;
+  padding: 2%;
 }
 /*
 #secondBox {
@@ -83,7 +85,8 @@ p.authors {
 } */
 
 #contactinfo {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center */
+  padding-left:2%;
 }
